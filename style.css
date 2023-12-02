@@ -2,4 +2,165 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.one{
+    display: block;
+    background-color: #DCB476;
+    color: white;
+    padding-top: 20px;
+}
+.header, .desc{
+    display: flex;
+    padding: 0px 160px;
+}
+.header{
+    padding-bottom: 100px;
+}
+.headerlogo > img{
+    width: 100px;
+}
+.headerlinks ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.headerlinks, .headerlogo{
+    padding: 15px;
+    padding-left: 0px;
+}
+.headerlogo{
+    padding-right: 450px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.headerlinks{
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.desc{
+    gap: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+.descinfo > h1{
+    width: 400px;
+    text-wrap: wrap;
+}
+.descinfo > p{
+    width: 500px;
+    text-wrap: wrap;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: #ebe7eb;
+    font-size: 24px;
+}
+.desc > div > h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    
+}
+.descbutton{
+    background-color: #D73A24;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 12px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.descbutton:hover{
+    background-color: #FFD765;
+    color: #D73A24;
+}
+.one > .desc > div > img{
+    width: 500px;
+    padding-top: 59px;
+    padding-left: 30px;
+    border-radius: 3px;
+}
+.two{
+    display: block;
+    padding-bottom: 100px;
+    }
+.twoinfo{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 26px;
+    font-weight: 700;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.subtext > div > img{
+    width: 200px;
+}
+.subtext  > p{
+    width: 150px;
+    text-wrap: wrap;
+}
+.three{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 100px;
+    background-color: #fcd66f;
+    color: #D73A24;
+}
+.quote{
+    display: flex;
+    font-size: 40px;
+    text-wrap: wrap;
+    width: 900px;
+    justify-content: center;
+}
+.author{
+    display: flex;
+    justify-content: end;
+    font-size: 22px;
+    font-weight: 700;
+    color:#ec2828;
+    width: 900px;
+}
+.four{
+    padding: 100px;
+    background-image: url("/images/Appa\ and\ the\ Gaang.jpeg");
+}
+.bluefour{
+    background-color: #DCB476;
+    color: #D73A24;
+    border-radius: 10px;
+    gap: 400px;
+    padding: 40px 100px;
+    display: flex;
+    text-wrap: nowrap;
+}
+.fourbutton > a > button{
+    background-color: #DCB476;
+    color: white;
+    border: 2px solid #fff;
+    padding: 8px 30px;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+.fourbutton > a > button:hover{
+    color: #D73A24;
+    background-color: #fff;
+    border: 2px solid #DCB476;
+    padding: 8px 30px;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(146, 135, 135);
+    padding: 10px;
 }
